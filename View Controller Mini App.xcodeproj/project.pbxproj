@@ -14,6 +14,8 @@
 		118D64F526FB5AC2003C9EE3 /* View_Controller_Mini_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 118D64F326FB5AC2003C9EE3 /* View_Controller_Mini_App.xcdatamodeld */; };
 		118D64F726FB5AC4003C9EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118D64F626FB5AC4003C9EE3 /* Assets.xcassets */; };
 		118D64FA26FB5AC4003C9EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118D64F826FB5AC4003C9EE3 /* LaunchScreen.storyboard */; };
+		118D650326FB5FC7003C9EE3 /* transferedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118D650126FB5FC7003C9EE3 /* transferedViewController.swift */; };
+		118D650426FB5FC7003C9EE3 /* transferedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 118D650226FB5FC7003C9EE3 /* transferedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		118D64F626FB5AC4003C9EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		118D64F926FB5AC4003C9EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		118D64FB26FB5AC4003C9EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118D650126FB5FC7003C9EE3 /* transferedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transferedViewController.swift; sourceTree = "<group>"; };
+		118D650226FB5FC7003C9EE3 /* transferedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = transferedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				118D64EC26FB5AC2003C9EE3 /* SceneDelegate.swift */,
 				118D64EE26FB5AC2003C9EE3 /* ViewController.swift */,
 				118D64F026FB5AC2003C9EE3 /* Main.storyboard */,
+				118D650126FB5FC7003C9EE3 /* transferedViewController.swift */,
+				118D650226FB5FC7003C9EE3 /* transferedViewController.xib */,
 				118D64F626FB5AC4003C9EE3 /* Assets.xcassets */,
 				118D64F826FB5AC4003C9EE3 /* LaunchScreen.storyboard */,
 				118D64FB26FB5AC4003C9EE3 /* Info.plist */,
@@ -129,6 +135,7 @@
 			files = (
 				118D64FA26FB5AC4003C9EE3 /* LaunchScreen.storyboard in Resources */,
 				118D64F726FB5AC4003C9EE3 /* Assets.xcassets in Resources */,
+				118D650426FB5FC7003C9EE3 /* transferedViewController.xib in Resources */,
 				118D64F226FB5AC2003C9EE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +150,7 @@
 				118D64EF26FB5AC2003C9EE3 /* ViewController.swift in Sources */,
 				118D64EB26FB5AC2003C9EE3 /* AppDelegate.swift in Sources */,
 				118D64ED26FB5AC2003C9EE3 /* SceneDelegate.swift in Sources */,
+				118D650326FB5FC7003C9EE3 /* transferedViewController.swift in Sources */,
 				118D64F526FB5AC2003C9EE3 /* View_Controller_Mini_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
