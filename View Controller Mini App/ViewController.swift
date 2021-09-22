@@ -12,9 +12,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var songTextField: UITextField!
     @IBOutlet weak var artistTextField: UITextField!
     
-    @IBOutlet var labelOutlet: UIView!
+    @IBOutlet weak var labelOutlet: UILabel!
     
-    override func viewDidLoad() {
+        override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
@@ -32,10 +32,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func unwind(_seg: UIStoryboardSegue){
-        print("unwinding to first view controller")
+       
         
         if let svc = _seg.source as? transferedViewController {
-            labelOutlet = svc.wordTextField.text!
+            labelOutlet.text = svc.wordTextField.text!
         }
     
         

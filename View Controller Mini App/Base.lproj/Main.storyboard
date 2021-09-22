@@ -142,7 +142,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SZ-UV-VxK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SZ-UV-VxK">
                                 <rect key="frame" x="150" y="516" width="115" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -167,7 +167,7 @@
                     <navigationItem key="navigationItem" title="Home" id="vfJ-9c-fzS"/>
                     <connections>
                         <outlet property="artistTextField" destination="KLO-M8-pHP" id="WZf-Or-gwd"/>
-                        <outlet property="labelOutlet" destination="8bC-Xf-vdC" id="sAZ-LG-rwY"/>
+                        <outlet property="labelOutlet" destination="4SZ-UV-VxK" id="yag-1v-oF3"/>
                         <outlet property="songTextField" destination="yCi-lv-E7a" id="SRP-ri-sGo"/>
                         <segue destination="DnO-VP-BNk" kind="show" identifier="toTransfered" id="0Cj-o1-V08"/>
                     </connections>
@@ -198,20 +198,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEZ-Zo-cgI">
-                                <rect key="frame" x="137" y="394" width="116" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unwind"/>
-                                <connections>
-                                    <segue destination="Hl5-7d-ane" kind="unwind" unwindAction="unwindWith_seg:" id="baE-dM-ttO"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="word" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qpf-se-w0l">
                                 <rect key="frame" x="147" y="490" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Z3-lh-R9g">
+                                <rect key="frame" x="162" y="423" width="66" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="Hl5-7d-ane" kind="unwind" unwindAction="unwindWith_seg:" id="akc-nZ-9gZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9jE-hg-bfo"/>
                         <color key="backgroundColor" red="1" green="0.80039202410362098" blue="0.89349398695681115" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

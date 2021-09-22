@@ -28,6 +28,7 @@ var artist = ""
         artistOutlet.text = "Artist: \(artist)"
         
     }
-
+    
+    
    
 }
